@@ -1,0 +1,11 @@
+F:/Programs/C++/cmake-build-debug/CMakeFiles/BinarySearchTree.dir
+F:/Programs/C++/cmake-build-debug/CMakeFiles/homework20221215-1.dir
+F:/Programs/C++/cmake-build-debug/CMakeFiles/heap.dir
+F:/Programs/C++/cmake-build-debug/CMakeFiles/priority_queue.dir
+F:/Programs/C++/cmake-build-debug/CMakeFiles/test1.dir
+F:/Programs/C++/cmake-build-debug/CMakeFiles/test2.dir
+F:/Programs/C++/cmake-build-debug/CMakeFiles/test2out.dir
+F:/Programs/C++/cmake-build-debug/CMakeFiles/test3.dir
+F:/Programs/C++/cmake-build-debug/CMakeFiles/test4.dir
+F:/Programs/C++/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/Programs/C++/cmake-build-debug/CMakeFiles/rebuild_cache.dir
