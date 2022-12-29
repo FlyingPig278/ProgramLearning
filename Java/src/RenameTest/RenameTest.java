@@ -25,19 +25,13 @@ public class RenameTest {
         in.close();
         var calendar=Calendar.getInstance();
         String date=""+calendar.get(Calendar.YEAR)+calendar.get(Calendar.MONTH)+calendar.get(Calendar.DATE);
-//        for (int i = 0; i < files.length; i++) {
-//            File file=files[i];
-//            File f=new File(path,String.valueOf(i));
-//            file.renameTo(f);
-//        }
-//        gc();
         for (int i = 0,index=0; i < files.length; i++) {
             File file = files[i];
             if(i+1>sum[index]) {
                 index++;
             }
             File f=new File(path,(subjects[index].getName()+"作业"+date+"(图"+(subjects[index].getNumber()-sum[index]+i+1)+")-"+name+".jpg"));
-            /*if(!*/if(!file.renameTo(f)) System.out.println("rename wrong");/*&& !file.getName().equals(f.getName())) throw new RuntimeException("Fail to rename")*/
+            if(!file.renameTo(f)) System.out.println("rename wrong");
         }
         var sj=new StringJoiner("\" \"","\"","\"");
         for (int i = 0,index=0; i < files.length; i++) {
